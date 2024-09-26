@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 app.use(urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:"https://mern-jobportal-rgf3.onrender.com",
+    origin:"https://job-portal-app-g8r9.onrender.com",
     credentials:true
 }
 app.use(cors(corsOptions));

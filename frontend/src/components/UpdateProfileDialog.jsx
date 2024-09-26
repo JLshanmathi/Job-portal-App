@@ -50,7 +50,7 @@ export function UpdateProfileDialog({ open, setOpen }) {
 
         try {
             dispatch(setLoading(true));
-            const res = await axios.post("https://mern-jobportal-rgf3.onrender.com/api/v1/user/profile/update", formData, {
+            const res = await axios.post("https://job-portal-app-g8r9.onrender.com/api/v1/user/profile/update", formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 },
