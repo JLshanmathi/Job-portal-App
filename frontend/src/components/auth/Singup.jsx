@@ -125,7 +125,7 @@ const Singup = () => {
                   onChange={changeEventHandler}
                   className="cursor-pointer"
                 />
-                <Label htmlFor="r1">Students</Label>
+                <Label htmlFor="r1">Student</Label>
               </div>
               <div className="flex items-center space-x-2">
                 <Input

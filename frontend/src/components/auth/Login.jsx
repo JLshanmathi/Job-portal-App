@@ -88,7 +88,7 @@ const Login = () => {
                                 checked={input.role === 'student'}
                                 onChange={changeEventHandler}
                             />
-                            <Label htmlFor="r1">Students</Label>
+                            <Label htmlFor="r1">Student</Label>
                         </div>
                         <div className="flex items-center space-x-2">
                             <input
