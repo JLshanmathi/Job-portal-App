@@ -11,7 +11,7 @@ const useGetAllJobs = () => {
         const fetchJobs = async () => {
             try {
                 axios.defaults.withCredentials = true;
-                const res = await axios.get(`https://job-portal-app-g8r9.onrender.com/api/v1/job/all?keyword=${searchText}`);
+                const res = await axios.get(`https://job-portal-app-irvt.onrender.com/api/v1/job/all?keyword=${searchText}`);
                
                 if (res.data.success) {
                     dispatch(setAllJobs(res.data.jobs));

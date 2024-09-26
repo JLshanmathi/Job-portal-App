@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 app.use(urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:"https://job-portal-app-g8r9.onrender.com",
+    origin:"https://job-portal-app-irvt.onrender.com",
     credentials:true
 }
 app.use(cors(corsOptions));

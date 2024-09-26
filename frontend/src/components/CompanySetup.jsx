@@ -44,7 +44,7 @@ const CompanySetup = () => {
             formData.append('file', input.file);
         }
         try {
-            const res = await axios.put(`https://job-portal-app-g8r9.onrender.com/api/v1/company/update/${params.id}`, formData, {
+            const res = await axios.put(`https://job-portal-app-irvt.onrender.com/api/v1/company/update/${params.id}`, formData, {
                 headers: {
                     "Content-Type": "multipart/form-data"
                 },
